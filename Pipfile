@@ -8,6 +8,11 @@ verify_ssl = true
 [packages]
 django = "*"
 djangorestframework = "*"
+requests = "*"
+pylint = "*"
+pylint-django = "*"
+pylint-celery = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"
