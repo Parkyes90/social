@@ -13,6 +13,10 @@ pylint = "*"
 pylint-django = "*"
 pylint-celery = "*"
 pillow = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+django-registration = "*"
+django-crispy-forms = "*"
 
 [requires]
 python_version = "3.7"
