@@ -19,4 +19,14 @@ urlpatterns = [
         views.AnswerCreateAPIView.as_view(),
         name="create-answer",
     ),
+    path(
+        "answers/<int:pk>/",
+        views.AnswerRUDAPIView.as_view(),
+        name="answer-detail",
+    ),
+    path(
+        "answers/<int:pk>/like/",
+        views.AnswerLikeAPIView.as_view(),
+        name="answer-like",
+    ),
 ]
