@@ -49,7 +49,7 @@ THIRD_PARTY_APPS = [
     "crispy_forms",
 ]
 
-LOCAL_APPS = ["users", "core"]
+LOCAL_APPS = ["users", "core", "questions"]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
