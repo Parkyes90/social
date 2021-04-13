@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="PylintConfigService">
-    <option name="customPylintPath" value="$USER_HOME$/.local/share/virtualenvs/social-_rDZ_6C_/bin/pylint" />
-    <option name="pylintrcPath" value="$PROJECT_DIR$/.pylintrc" />
-  </component>
-</project>
